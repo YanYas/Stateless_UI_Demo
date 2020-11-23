@@ -1,0 +1,11 @@
+*.dll
+src/*/bin/
+src/*/obj/
+src/*/.vs/
+*/.vl
+*.dll
+src/*/bin/
+src/*/obj/
+src/*/.vs/
+*/.vl
+*~.xml
