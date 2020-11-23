@@ -1,0 +1,55 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta40.dtd" >
+   <PATCH nodename="C:\Users\Igor\Documents\Naut\Research\AnimationCurves\BezierAnimationTool.v4p" systemname="BezierAnimationTool" filename="C:\Users\Igor\Documents\Naut\Research\AnimationCurves\BezierAnimationTool.v4p" scrollx="0" scrolly="-360">
+   <BOUNDS type="Window" left="-18720" top="930" width="7500" height="9000">
+   </BOUNDS>
+   <PACK Name="dx11" Version="1.3.1">
+   </PACK>
+   <PACK Name="dx11.particles" Version="1.0.6">
+   </PACK>
+   <PACK Name="FieldTrip" Version="0.3">
+   </PACK>
+   <PACK Name="Happy.fxh" Version="3.0.0">
+   </PACK>
+   <PACK Name="InstanceNoodles" Version="0.6">
+   </PACK>
+   <PACK Name="addonpack" Version="40.0.0">
+   </PACK>
+   <NODE systemname="AnimationsCurves (Value)" filename="vl\VVVV.Value.AnimationsCurves.vl" nodename="AnimationsCurves (Value)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="1320" top="2040" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1">
+   <BOUNDS type="Box" left="1365" top="3060" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1365" top="3060" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="1" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="2" exposed="1">
+   <BOUNDS type="Node" left="4485" top="2055" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4485" top="2055" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="MySpecialValue">
+   </PIN>
+   </NODE>
+   <NODE systemname="KeyFrameSelection (Value)" filename="vl\VVVV.Value.AnimationsCurves.vl" nodename="KeyFrameSelection (Value)" componentmode="Hidden" id="3">
+   <BOUNDS type="Node" left="1425" top="4635" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="RectangleMapping (Value)" filename="vl\VVVV.Value.AnimationsCurves.vl" nodename="RectangleMapping (Value)" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="3990" top="5220" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="CombinedEditing (Value)" filename="vl\VVVV.Value.AnimationsCurves.vl" nodename="CombinedEditing (Value)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="1440" top="6285" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   </PATCH>
